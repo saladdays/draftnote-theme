@@ -3,7 +3,7 @@
   "displayName": "draft note",
   "description": "A theme for writing like on note.com",
   "publisher": "saladdays",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.90.0"
