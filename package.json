@@ -4,6 +4,7 @@
   "description": "A theme for writing like on note.com",
   "publisher": "saladdays",
   "version": "0.0.3",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.90.0"
   },
