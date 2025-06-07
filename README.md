@@ -14,14 +14,13 @@ note.comが提供する、あの素晴らしい執筆体験にインスパイア
 
 ![screenshot](./images/screenshot.png)
 
-## 使い方 (テーマの適用方法)
+## 使い方
 
-インストール後、メニューバーから以下の手順でテーマを有効化してください。
-
--   **Windows / Linux:** `ファイル (File)` > `ユーザー設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
--   **macOS:** `Code / Cursor` > `基本設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
-
-その後、表示されるリストから `draft note` を選択するとテーマが適用されます。
+1.  [**VS Code Marketplace のページ**](https://marketplace.visualstudio.com/items?itemName=saladdays.draftnote) を開きます。
+2.  **Install** ボタンをクリックします。
+3.  インストール後、メニューバーから以下の手順で `draft note` を選択するとテーマが適用されます。
+    -   **Windows / Linux:** `ファイル (File)` > `ユーザー設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
+    -   **macOS:** `Code / Cursor` > `基本設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
 
 ## 主な特徴
 
