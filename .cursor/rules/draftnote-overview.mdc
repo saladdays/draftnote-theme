@@ -1,5 +1,33 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# draft noteテーマ プロジェクト概要
+
+このプロジェクトは、note.comの執筆体験にインスパイアされた、日本語の文章作成に特化したCursorテーマ「draft note」を作成することを目的としています。
+
+## 主要ファイル
+
+-   `[package.json](mdc:package.json)`: テーマのメタデータ（名前、バージョン、発行者名 `saladdays`）と、エディタのデフォルト設定（フォント、余白、62文字での折り返しなど）を定義する中心的なファイルです。
+-   `[themes/draftnote-color-theme.json](mdc:themes/draftnote-color-theme.json)`: UIの色やシンタックスハイライトの色をすべて定義している、テーマの心臓部です。色の変更は主にこのファイルを編集します。
+-   `[README.md](mdc:README.md)`: テーマのコンセプトや使い方を説明する公式ドキュメントです。
+
+## 設計思想
+
+-   **執筆への集中:** note.comのように、書くことそのものに集中できる環境を目指しています。
+-   **日本語への最適化:** ヒラギノ角ゴを優先フォントとして指定し、読みやすい文字サイズ(18px)や行間(2)を設定しています。
+-   **レイアウト:** 上下に大きな余白(`padding`)を設け、行番号を非表示にすることで、スッキリとした見た目にしています。
+
+## Marketplaceへの公開
+
+このテーマはVisual Studio Code Marketplaceに公開されており、誰でもインストールできます。
+
+-   **発行者 (Publisher):** `saladdays`
+-   **公開ツール:** `vsce` (Visual Studio Code Extensions)
+-   **公開コマンド:** `vsce publish`
+-   **更新手順:** テーマを更新する際は、`[package.json](mdc:package.json)` の `version` 番号を上げた後、`vsce publish` コマンドを実行します。
+
+## 開発ワークフロー
+
+**GitHubへのプッシュ後、Marketplaceへの公開（`npm run release`の実行）は、必ずユーザーに確認してから行うこと。**
