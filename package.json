@@ -1,0 +1,42 @@
+{
+  "name": "draftnote",
+  "displayName": "draftnote",
+  "description": "A theme for writing like on note.com",
+  "publisher": "uno",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repo.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "draft note",
+        "uiTheme": "vs",
+        "path": "./themes/draftnote-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[markdown]": {
+        "editor.fontFamily": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Arial, Meiryo, sans-serif",
+        "editor.fontWeight": "300",
+        "editor.fontSize": 18,
+        "editor.lineHeight": 2,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 62,
+        "editor.padding.top": 100,
+        "editor.padding.bottom": 100,
+        "editor.lineNumbers": "off",
+        "editor.cursorWidth": 1
+      }
+    }
+  },
+  "scripts": {
+  }
+}
