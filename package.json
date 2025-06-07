@@ -38,5 +38,6 @@
     }
   },
   "scripts": {
+    "release": "npm version patch && vsce publish && git push --follow-tags"
   }
 }
