@@ -1,9 +1,9 @@
 {
   "name": "draftnote",
-  "displayName": "draftnote",
+  "displayName": "draft note",
   "description": "A theme for writing like on note.com",
-  "publisher": "uno",
-  "version": "0.0.1",
+  "publisher": "saladdays",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },

@@ -1,4 +1,4 @@
-# Draftnote Theme
+# draft note Theme
 
 note.comが提供する、あの素晴らしい執筆体験にインスパイアされた、書くことに集中するためのテーマです。
 
