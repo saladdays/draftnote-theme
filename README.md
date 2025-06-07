@@ -14,13 +14,6 @@ note.comが提供する、あの素晴らしい執筆体験にインスパイア
 
 ![screenshot](./images/screenshot.png)
 
-## インストール方法
-
-1.  Visual Studio Code または Cursor を開きます。
-2.  `Ctrl+Shift+X` (Windows, Linux) または `Cmd+Shift+X` (macOS) を押して、拡張機能ビューを開きます。
-3.  検索ボックスに `draft note` と入力し、この拡張機能を見つけます。
-4.  「インストール」ボタンをクリックします。
-
 ## 使い方 (テーマの適用方法)
 
 インストール後、メニューバーから以下の手順でテーマを有効化してください。
