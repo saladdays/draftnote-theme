@@ -16,15 +16,19 @@ note.comが提供する、あの素晴らしい執筆体験にインスパイア
 
 ## インストール方法
 
-1.  Visual Studio Codeを開きます。
+1.  Visual Studio Code または Cursor を開きます。
 2.  `Ctrl+Shift+X` (Windows, Linux) または `Cmd+Shift+X` (macOS) を押して、拡張機能ビューを開きます。
 3.  検索ボックスに `draft note` と入力し、この拡張機能を見つけます。
 4.  「インストール」ボタンをクリックします。
 
 ## 使い方 (テーマの適用方法)
 
-1.  `Ctrl+K Ctrl+T` (Windows, Linux) または `Cmd+K Cmd+T` (macOS) を押して、配色テーマの選択リストを開きます。
-2.  リストから `draft note` を選択して適用します。
+インストール後、メニューバーから以下の手順でテーマを有効化してください。
+
+-   **Windows / Linux:** `ファイル (File)` > `ユーザー設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
+-   **macOS:** `Code / Cursor` > `基本設定 (Preferences)` > `テーマ (Theme)` > `配色テーマ (Color Theme)`
+
+その後、表示されるリストから `draft note` を選択するとテーマが適用されます。
 
 ## 主な特徴
 
