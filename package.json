@@ -3,7 +3,7 @@
   "displayName": "draft note",
   "description": "A minimal and elegant theme for an immersive writing and reading experience.",
   "publisher": "saladdays",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.90.0"
