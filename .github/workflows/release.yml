@@ -1,0 +1,31 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install -g vsce ovsx
+
+      - name: Publish to Visual Studio Marketplace
+        run: vsce publish -p $VSCE_PAT
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to Open VSX Registry
+        run: ovsx publish -p $OVSX_PAT
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }} 
