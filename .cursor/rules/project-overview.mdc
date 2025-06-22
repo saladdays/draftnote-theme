@@ -1,5 +1,32 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Project Overview: draft note theme
+
+This project is a Visual Studio Code theme named "draft note".
+
+## Core Concept & Design Principles
+
+The main goal is to replicate the minimal and elegant writing and reading experience of the Japanese media platform, `note.com`. The theme prioritizes a calm, distraction-free environment for authors.
+
+- **Minimal Highlighting:** Syntax highlighting for Markdown is intentionally kept to a minimum to reduce visual noise and help users focus on the text itself.
+- **Generous Spacing:** Default settings for Markdown and plaintext files enforce a larger font size, increased line height, and editor padding to ensure readability and reduce fatigue during long writing sessions. These are defined in the `configurationDefaults` section of [package.json](mdc:package.json).
+- **Modern UI Base:** The themes are built upon VS Code's modern base themes (`light-modern` and `dark-modern`), as specified by the `uiTheme` property in [package.json](mdc:package.json).
+
+## Key Files
+
+- **Manifest:** [package.json](mdc:package.json)
+  - This is the main definition file for the extension. It defines the themes, their base UI, and the default editor configurations.
+
+- **Theme Definitions:**
+  - **Light Theme:** [themes/draftnote-color-theme.json](mdc:themes/draftnote-color-theme.json)
+  - **Dark Theme:** [themes/draftnote-dark-color-theme.json](mdc:themes/draftnote-dark-color-theme.json)
+  - These files contain the specific color values for the UI and syntax highlighting.
+
+- **User Guide:** [README.md](mdc:README.md)
+  - Explains the theme's concept, features, and how to use it.
+
+- **Version History:** [CHANGELOG.md](mdc:CHANGELOG.md)
+  - Documents notable changes for each version. This file's content is displayed on the marketplace pages.

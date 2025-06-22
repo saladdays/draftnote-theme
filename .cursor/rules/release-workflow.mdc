@@ -1,5 +1,32 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Release and Publishing Workflow
+
+This document outlines how to release new versions of the "draft note" theme.
+
+## Release Process
+
+1.  **Run the release script:** From the local terminal, execute `npm run release`.
+2.  **Script Actions:** The script, defined in [package.json](mdc:package.json), performs the following actions:
+    - Bumps the patch version number (e.g., 0.0.1 -> 0.0.2).
+    - Creates a Git commit for the version change.
+    - Creates a new Git tag corresponding to the new version (e.g., `v0.0.2`).
+    - Pushes the commit and the new tag to the remote GitHub repository.
+
+## Automated Publishing
+
+- **Trigger:** Pushing a new version tag (e.g., `v*`) to the `main` branch triggers the GitHub Actions workflow.
+- **Workflow File:** The automation is defined in [.github/workflows/release.yml](mdc:.github/workflows/release.yml).
+- **Actions:** The workflow automatically builds and publishes the extension to two marketplaces:
+  - Visual Studio Marketplace
+  - Open VSX Registry
+
+**Important:** Direct publishing from the local machine (`vsce publish`) has been disabled to prevent conflicts with the CI/CD pipeline.
+
+## Changelog Management
+
+- The public change history displayed on the marketplaces is managed through the [CHANGELOG.md](mdc:CHANGELOG.md) file.
+- Before running the release script, update this file with the details of the new version. The workflow will automatically package this file.
