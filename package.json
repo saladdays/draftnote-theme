@@ -21,6 +21,11 @@
         "label": "draft note",
         "uiTheme": "vs",
         "path": "./themes/draftnote-color-theme.json"
+      },
+      {
+        "label": "draft note dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/draftnote-dark-color-theme.json"
       }
     ],
     "configurationDefaults": {
