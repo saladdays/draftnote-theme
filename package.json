@@ -19,12 +19,12 @@
     "themes": [
       {
         "label": "draft note",
-        "uiTheme": "vs",
+        "uiTheme": "light-modern",
         "path": "./themes/draftnote-color-theme.json"
       },
       {
         "label": "draft note dark",
-        "uiTheme": "vs-dark",
+        "uiTheme": "dark-modern",
         "path": "./themes/draftnote-dark-color-theme.json"
       }
     ],
