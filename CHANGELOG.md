@@ -4,6 +4,18 @@ All notable changes to the "draftnote" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.23] - 2026-03-04
+### Fixed
+- ツールチップやホバーウィジェットの文字が読めない問題を修正しました。
+- チャット内のインラインコードのコントラスト比が低い問題を修正しました。
+- リンクテキストの視認性が低い問題を修正しました。
+
+### Added
+- エディタウィジェット (`editorWidget`, `editorHoverWidget`, `editorSuggestWidget`) の色を明示的に定義しました。
+- テキストリンク (`textLink`) の色を定義しました。
+- チャットUI (`chat.requestBackground` 等) の色を定義しました。
+- コードブロック・整形済みテキスト (`textCodeBlock`, `textPreformat`) の色を定義しました。
+
 ## [0.0.19] - 2025-06-22
 ### Changed
 - テーマのベースを、よりモダンなVS Codeの標準テーマ (`light-modern`, `dark-modern`) に変更しました。
