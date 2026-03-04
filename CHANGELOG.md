@@ -4,11 +4,12 @@ All notable changes to the "draftnote" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.23] - 2026-03-04
+## [0.0.24] - 2026-03-04
 ### Fixed
 - ツールチップやホバーウィジェットの文字が読めない問題を修正しました。
 - チャット内のインラインコードのコントラスト比が低い問題を修正しました。
 - リンクテキストの視認性が低い問題を修正しました。
+- サイドバーのツールバーアイコンが見えにくい問題を修正しました。
 
 ### Added
 - エディタウィジェット (`editorWidget`, `editorHoverWidget`, `editorSuggestWidget`) の色を明示的に定義しました。
